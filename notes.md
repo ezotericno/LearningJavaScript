@@ -7,3 +7,9 @@ Code editors
 - WebStorm
 - Sublime Text
 - Notepad++
+
+
+    defer – means that the script should be executed after the whole page is loaded;
+    async – means that the script will be executed immediately, but in parallel to parsing the rest of the page.
+
+A string can be concatenated using the + sign, for example "abc" + "def" will be treated as "abcdef"
