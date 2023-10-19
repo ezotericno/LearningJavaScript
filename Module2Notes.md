@@ -51,5 +51,5 @@ counter  =  counter  +  1;
 console.log(counter);  //  ->  2
 ```
 
-```let``` and ```const``` when declared inside of a block is local only, outside will be global
-```var``` is global almost always, except for when declared inside of a function
+- ```let``` and ```const``` when declared inside of a block is local only, outside will be global
+- ```var``` is global almost always, except for when declared inside of a function
