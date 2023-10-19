@@ -23,3 +23,33 @@
 ### Constants
 - The ```const``` keyword is used to declare containers similar to variables
 - this type of container is simultaneously declared and initialized
+
+### Program Blocks
+We can separate the code of a program into blocks, see below
+```
+let  counter;
+console.log(counter);  //  ->  undefined
+{
+         counter  =  1;
+         console.log(counter);  //  ->  1
+}
+counter  =  counter  +  1;
+console.log(counter);  //  ->  2
+```
+The blocks are usually associated with conditional instructions, loops, or functions
+We can also nest blocks within blocks (Blockception)
+```
+let  counter;
+console.log(counter);  //  ->  undefined
+{
+         counter  =  1;
+         {
+                 console.log(counter);  //  ->  1
+         }
+}
+counter  =  counter  +  1;
+console.log(counter);  //  ->  2
+```
+
+```let``` and ```const``` when declared inside of a block is local only, outside will be global
+```var``` is global almost always, except for when declared inside of a function
